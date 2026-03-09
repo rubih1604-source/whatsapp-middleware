@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: whatsapp-middleware
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app
+    envVars:
+      - key: WHAPI_TOKEN
+        value: 5g1ljdn0Ba7gaOqWETmhUlcPX9kaLCbh
+      - key: API_SECRET
+        value: rubi2080
