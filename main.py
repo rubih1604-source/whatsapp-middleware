@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 WHAPI_TOKEN = os.getenv("WHAPI_TOKEN", "5g1ljdn0Ba7gaOqWETmhUlcPX9kaLCbh")
-WHAPI_URL = "https://gate.whapi.cloud/messages/text"
+WHAPI_URL = "https://gate.whapi.cloud/channels/DRAXTH-E77P4/messages/text"
 
 TEMPLATES = {
     "ain_mana": "היי {name},\nקיבלתי את הפרטים שלך ולא הצלחתי להשיג אותך, אשמח שנדבר מתי מתאים לך.\nמדבר רובי ממכירות של yes",
